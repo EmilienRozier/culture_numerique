@@ -12,8 +12,8 @@ h5 {
     font-size: x-large;
 }
 
-p{
-    font-size:large;
+p {
+    font-size: large;
 }
 
 #body {
@@ -28,7 +28,7 @@ nav {
     font-size: large;
 }
 
-nav div{
+nav div {
     display: flex;
     align-items: center;
 }
@@ -37,12 +37,12 @@ li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-nav a img{
+nav a img {
     width: 80px;
 }
 
@@ -62,22 +62,22 @@ button {
     border: none;
 }
 
-#smenu{
+#smenu {
     display: none;
     border-radius: 3px;
     position: absolute;
 }
 
-#smenu li a{
+#smenu li a {
     display: block;
     padding: 20px 15px;
 }
 
-#smenu li:hover{
+#smenu li:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-#smenu.active{
+#smenu.active {
     display: block;
     background-color: whitesmoke;
     position: absolute
@@ -114,7 +114,7 @@ section div {
     border-radius: 8px;
 }
 
-section div img{
+section div img {
     width: 100%;
     border-radius: 8px;
 }
@@ -135,6 +135,19 @@ section div div a:hover {
     text-decoration: underline;
 }
 
+.article-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.article p {
+    margin-bottom: 25px;
+}
+
+.sources li{
+    margin: 15px 0;
+}
+
 @media screen and (max-width: 750px) {
     section {
         margin-top: 1%;
@@ -144,8 +157,13 @@ section div div a:hover {
         grid-gap: 1%;
         justify-content: center;
     }
+
     #menu {
         display: none;
+    }
+
+    .article-wrapper {
+        width: 90%;
     }
 }
 
@@ -153,7 +171,17 @@ section div div a:hover {
     #body {
         width: 95%;
     }
+
     header h1 {
         font-size: 5vw;
     }
 }
+
+footer {
+    margin-top: 25px;
+}
+
+.article h5 {
+    margin-bottom: 15px;
+}
+
