@@ -148,6 +148,15 @@ section div div a:hover {
     margin: 15px 0;
 }
 
+.img-wrapper {
+    width: 100%;
+}
+
+.img-wrapper img{
+    display: block;
+    margin: 5px auto;
+}
+
 @media screen and (max-width: 750px) {
     section {
         margin-top: 1%;
